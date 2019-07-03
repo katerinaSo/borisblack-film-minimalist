@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    min-height: 100vh;
 }
 header{
     padding-top:2em;
@@ -8,9 +9,17 @@ header{
     
    
 }
+.svg{
+    margin:auto;
+    width:90%;
+    
+}
 a{
     color:#53C4CC;
     text-decoration: none;
+}
+a :hover{
+    color:orange;
 }
 .ad{
     display: block;
@@ -38,7 +47,8 @@ button{
 span{
     color:rgb(44, 185, 196);
    
-    font-size: 1em;
+   
+    font-size: 1.1em;
     align-items: baseline;
 }
 footer{
@@ -66,4 +76,7 @@ footer{
 .btn-primary:hover {
   background: #53C4CC;;
   color: white;
+}
+h4{
+    font-size: 1rem;
 }
