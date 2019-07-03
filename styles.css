@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
 }
 header {
-  padding-top: 1em;
+  padding-top: .5em;
   margin: auto;
   text-align: center;
 }
