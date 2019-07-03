@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 a :hover {
-  color: orange;
+  color: teal;
 }
 .ad {
   display: block;
