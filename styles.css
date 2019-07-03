@@ -68,14 +68,18 @@ footer {
 }
 
 .btn-primary {
-  background: var(--primaryColor);
+  background: transparent;
   color: black;
   border: 2px solid #53c4cc;
   font-weight: 600;
+  background: #53c4cc;
+  color: white;
 }
 .btn-primary:hover {
   background: #53c4cc;
   color: white;
+  background: transparent;
+  color: black;
 }
 h4 {
   font-family: "Lato", sans-serif;
